@@ -149,11 +149,11 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Desktop\p2dism\imagenBMP.c" />
-    <ClCompile Include="..\..\..\..\..\Desktop\p2dism\incompleto.c" />
+    <ClCompile Include="..\imagenBMP.c" />
+    <ClCompile Include="..\incompleto.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\p2dism\imagenBMP.h" />
+    <ClInclude Include="..\imagenBMP.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
