@@ -145,11 +145,11 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\PRACTICA2\imagenBMP.h" />
+    <ClCompile Include="imagenBMP.c" />
+    <ClCompile Include="incompleto.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Desktop\PRACTICA2\imagenBMP.c" />
-    <ClCompile Include="..\..\..\..\..\Desktop\PRACTICA2\incompleto.c" />
+    <ClInclude Include="imagenBMP.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
